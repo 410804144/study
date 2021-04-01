@@ -11,3 +11,7 @@ arch -x86_64 pod install
 ```shell
 ln -s $(which node) /usr/local/bin/node
 ```
+
+### 打包出现：assertion failed expected 2 archs in otool output
+
+finder -> application 选中 xcode，按下command+i，选择使用Rosetta打开，然后重新开启xcode
