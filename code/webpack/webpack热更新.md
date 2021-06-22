@@ -25,6 +25,10 @@ npm run watch
 - 接下来，修改文件并保存后，会自动编译代码，刷新页面就能看到编译后的效果
 
 ## webpack-dev-server
+- 安装依赖
+```shell
+npm install --save-dev webpack-dev-server
+```
 - 修改webpack.config.js
 ```javascript
 module.exports = {
